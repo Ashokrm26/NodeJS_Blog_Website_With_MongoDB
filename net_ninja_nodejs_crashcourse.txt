@@ -1,0 +1,90 @@
+
+Net Ninja(YT) - Nodejs Crash course tutorial (playlist)
+
+1st video : setup & install
+
+2nd video : 
+// node basics - test.js
+// The global object - global.js
+// modules & require  - modules.js   people.js
+// the file system  - files.js
+// streams and buffers // streams.js // blog3.txt
+    Streams - Start using data, before it has finish loading
+
+3rd Video : server.js
+// clients & servers 
+// IP Addresses and Domains
+// Creating a server
+// Localhost & Port Numbers 
+
+4th video :  // Requests & Responses  - server.js
+// request object
+// the response object
+// returning html pages  - views/index.html  
+//                         server1.js
+// basic routing         - server2.js - about.html - 404.html
+// status codes (status codes describes the type of response sent to the browser)
+> 200 ok
+> 301 resourse moved
+> 404 not found
+> 500 Internal server error.
+
+100 Range informational responses 
+200 Range - success codes 
+300 Range - codes for redirects 
+400 Range user or client error codes 
+500 Range server error codes
+
+// redirects //server2.js
+
+5th Video : NPM (node package manager)//  - server3.js
+// 3rd party packages  // npmjs.com  -> lodash(search), nodemon (search)
+> npm install -g nodemon
+> nodemon server3
+// package.json file // npm init -> enter -> enter -> ....
+// installing packages locally // npmjs.com -> lodash -> $ npm install lodash
+// dependencies & sharing codes 
+
+6th video :
+// Express Apps  // https://www.npmjs.com/package/express
+> npm install express
+// Creating an Express App  // app.js 
+//  Routing & HTML   // app.js
+// redirects & 404's // app.js
+
+7th video :  ( View Engines ) // app1.js
+> https://www.npmjs.com/package/express-handlebars
+> https://www.pugjs.org/api/getting-started.html
+> https://www.ejs.co
+// EJS > npm install ejs
+> I'm moving all the html files from views to view1 folder to learn view engines.
+> creating an file called index.ejs and added some content 
+> creating an file called about.ejs and added some content 
+> creating an file called 404.ejs and added some content 
+> creating an file called create.ejs and added some content 
+> // app1.js  
+// passing data into views :  00:16:00  > refer assets folder image
+// partials  > ./views/partials
+// adding css
+
+8th video : (Middleware & static files)
+Middleware Examples
+• Logger middleware to log details of every request.
+• Authentication check middleware for protected routes 
+• Middleware to parse JSON data from requests 
+• Return 404 pages
+// middleware
+// using next()
+// third party middleware  // https://www.npmjs.com/package/morgan -> npm install morgan
+// static files
+
+9th video : ( MongoDB & Mongoose )
+// MongoDB setup & Atlas
+// Mongoose, models & schemas - npm install mongoose
+> creating an folder called models and blog.js file and content
+// getting and saving data  - 25:50
+// outputting documents in views
+
+10th video : Get, Post & Delete Requests 
+// request types  -> refer ./assests/requestTypes.passing
+// post requests  -> create.ejs 
