@@ -149,6 +149,11 @@ Middleware Examples
 
 
 
-
+Topics covered today : 
+1. MongoDB Atlas Setup & Mongoose Integration
+2. Models & Schemas
+3. CRUD Operations (GET, POST, DELETE)
+4. Route Parameters
+5. Express Router & MVC Pattern
 
 

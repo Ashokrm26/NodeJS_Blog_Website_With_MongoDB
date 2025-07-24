@@ -9,8 +9,8 @@ const blogRoutes = require('./routes/blogRoutes');
 // express app
 const app = express();
 
-// mongodb url to connect  // uname  password                             //collection name = note-tuts
-mongoose.connect("mongodb+srv://loshika:test1234@nodetuts.hdrzkwl.mongodb.net/note-tuts?retryWrites=true&w=majority", {
+// mongodb url to connect  // uname       password                             //collection name = note-tuts
+mongoose.connect("mongodb+srv://User_name:Password@nodetuts.hdrzkwl.mongodb.net/note-tuts?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000
